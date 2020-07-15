@@ -1,0 +1,142 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+body{
+  background-image: url(../images/background1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.navbar-toggle {
+	background-color: rgba(0, 0, 0, 0.89);
+}
+.navbar-nav>li>a {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400 !important;
+}
+
+.navbar-inverse .navbar-brand img {
+	width: 120px;
+}
+
+.navbar-inverse {
+	background:#ffffff;  
+	margin: 19px 18px auto;
+	border-radius: 50px;
+}
+.navbar-inverse {
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+	color: #B8B8B8;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .active > a{
+	background: #3d84e6;
+	color: #ffffff !important;
+    border-radius: 0px;
+} 
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+	text-align: left;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover{
+color: #fff !important;
+    border-radius: 0px;
+	background: #3d84e6;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+.navbar-collapse ul {
+	text-align: right;
+	margin-right: 0px;
+}
+}
+
+@media (max-width: 768px) {
+    #head.secondary { 
+height: 157px !important;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+	font-size: 13px;
+}
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+text-align: right;
+}
+}
+
+
+
+.topbar {
+    background-color: #000;
+    margin-bottom: 30px;
+    padding: 12px 0 14px;
+}
+
+.topbar a,
+.topbar p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+.topbar .text-left p {
+    margin-top: 3px;
+}
+
+.topbar .text-left i {
+    padding-right: 3px;
+}
+
+.social a {
+    font-size: 12px;
+    color: #fff !important;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 25px;
+    text-align: center;
+    border-radius: 1px;
+    margin-left: 2px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+
+
+.social a.facebook {
+    background-color: #3b5998;
+}
+
+.social a.pinterest {
+    background-color: #bd081c;
+}
+
+.social a.twitter {
+    background-color: #1da1f2;
+}
+
+.social a.google {
+    background-color: #34a853;
+}
+
+.social a.linkedin {
+    background-color: #0077b5;
+}

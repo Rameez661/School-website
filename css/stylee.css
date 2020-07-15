@@ -1,0 +1,64 @@
+.fishes {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.fish {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+.fish {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.fish:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: yellow;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: black;
+  font-weight: bold;
+  float: right;
+  padding-right: 20px;
+  margin-left: 5px;
+  font-weight: 1000;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: yellowgreen;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: none;
+}
+body {
+}
